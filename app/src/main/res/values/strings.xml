@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clothic</string>
+    <string name="hello">HELLO!</string>
+    <string name="txt_hello">HElLO!!</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="welcome">WELCOME</string>
+    <string name="sign_to_continue">Sign to continue</string>
+    <string name="welcome">WELCOME</string>
+    <string name="let_s_get_started">Let\'s get started</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="welcome">WELCOME</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+</resources>

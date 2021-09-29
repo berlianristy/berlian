@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_figma"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELLO!"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="253dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="330dp"
+        android:text="Find your aesthetic style"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="461dp"
+        android:backgroundTint="#B6B290"
+        android:text="SIGN IN" />
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="180dp"
+        android:backgroundTint="#B6B290"
+        android:text="SIGN UP" />
+
+</RelativeLayout>
