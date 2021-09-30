@@ -122,7 +122,18 @@
         app:layout_constraintVertical_bias="0.717"
         tools:ignore="SpeakableTextPresentCheck" />
 
-
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="74dp"
+        android:backgroundTint="#B6B290"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

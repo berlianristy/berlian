@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Clothic">
         <activity
+            android:name=".profilee"
+            android:exported="true" />
+        <activity
+            android:name=".myfavorite"
+            android:exported="true" />
+        <activity
+            android:name=".update"
+            android:exported="true" />
+        <activity
+            android:name=".transaction"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
