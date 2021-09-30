@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B290"
+    tools:context=".address">
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/rectangle_8" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="#FFF"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/panah_1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Shipping Address"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="110dp"
+                android:text="Recipient"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Name" />
+
+            <EditText
+                android:id="@+id/name_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_name"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle_7"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name_tag"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Phone Number" />
+
+            <EditText
+                android:id="@+id/phone_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_phone"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle_7"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/txt_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone_tag"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:text="Address"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/address_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_address"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rectangle_7"
+                android:hint="   Province"
+                android:minHeight="48dp"
+                android:textSize="15dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <EditText
+                android:id="@+id/city_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address_tag"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_9"
+                android:hint="   City"
+                android:minHeight="48dp"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/district_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/city_tag"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rectangle_9"
+                android:hint="   District"
+                android:minHeight="48dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_fulladdress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/district_tag"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Full Address"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/full_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_fulladdress"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_13"
+                android:hint="   input your address here"
+                android:minHeight="48dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_deliverynotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/full_address"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="0dp"
+                android:text="Delivery Notes"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/delivery_notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_7" />
+
+            <Button
+                android:id="@+id/button_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rectangle_9"
+                android:backgroundTint="#354638"
+                android:text="Use this address"
+                android:textColor="#FFF"
+                app:backgroundTint="#354638" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
